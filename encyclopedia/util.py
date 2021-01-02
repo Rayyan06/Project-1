@@ -35,3 +35,20 @@ def get_entry(title):
         return f.read().decode("utf-8")
     except FileNotFoundError:
         return None
+
+def convert_markdown_to_html(markdown):
+    """
+    Basic markdown to HTML converter. 
+    """
+    
+    
+    # Headings
+    
+    heading = re.compile(r"^#(.*$)", re.GLOBAL, re.IGNORECASE, re.MULTILINE)
+    re.sub(heading, )
+
+    # Bold
+    bold_text = re.compile(r"\*\*\w*\*\*", re.GLOBAL)
+
+    # Unordered list_entries
+    unordered_list = re.compile(r"^[\*-\+]")
