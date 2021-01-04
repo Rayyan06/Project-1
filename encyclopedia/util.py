@@ -1,5 +1,5 @@
 import re
-
+from markdown2 import Markdown
 from django.core.files.base import ContentFile
 from django.core.files.storage import default_storage
 
@@ -39,16 +39,10 @@ def get_entry(title):
 def convert_markdown_to_html(markdown):
     """
     Basic markdown to HTML converter. 
-    """
+    """    
+    markdowner = Markdown()
+    return markdowner.convert(markdown)
     
-    
-    # Headings
-    
-    heading = re.compile(r"^#(.*$)", re.GLOBAL, re.IGNORECASE, re.MULTILINE)
-    re.sub(heading, )
 
-    # Bold
-    bold_text = re.compile(r"\*\*\w*\*\*", re.GLOBAL)
 
-    # Unordered list_entries
-    unordered_list = re.compile(r"^[\*-\+]")
+    

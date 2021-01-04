@@ -33,6 +33,12 @@ textarea {
     padding: 20px;
 }
 
+.sidebar > div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
 .sidebar h2 {
     margin-top: 5px;
 }
