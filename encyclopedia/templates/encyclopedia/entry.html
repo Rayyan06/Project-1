@@ -3,7 +3,8 @@
 {{ title }}
 {% endblock %}
 {% block body %}
-    
+    <div>
     {{ entry|safe }}
+    </div>
     <a class="btn btn-secondary" href="{% url 'edit' title %}">Edit</a>
 {% endblock %}

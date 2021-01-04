@@ -1,5 +1,5 @@
 [[package]]
-category = "dev"
+category = "main"
 description = "ASGI specs, helper code, and adapters"
 name = "asgiref"
 optional = false
@@ -10,7 +10,7 @@ version = "3.3.1"
 tests = ["pytest", "pytest-asyncio"]
 
 [[package]]
-category = "dev"
+category = "main"
 description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
 name = "django"
 optional = false
@@ -35,7 +35,7 @@ python-versions = "*"
 version = "2.3.10"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "World timezone definitions, modern and historical"
 name = "pytz"
 optional = false
@@ -43,7 +43,7 @@ python-versions = "*"
 version = "2020.5"
 
 [[package]]
-category = "dev"
+category = "main"
 description = "A non-validating SQL parser."
 name = "sqlparse"
 optional = false
@@ -51,7 +51,7 @@ python-versions = ">=3.5"
 version = "0.4.1"
 
 [metadata]
-content-hash = "04bb0104effb7f03470bb0d6f19da7be4fd177c26cb6dd857c5c80f8474c41eb"
+content-hash = "0e2e0203d0f9eb0f34d839b182a2c9d3009615cd0c68a7fa10d6d00670325ba2"
 python-versions = "^3.8"
 
 [metadata.files]
